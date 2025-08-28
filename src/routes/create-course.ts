@@ -12,7 +12,11 @@ export const createCourseRoute: FastifyPluginAsyncZod = async (server) => {
         summary: "Create a course",
         description: "Essa rota recebe um título e cria o curso",
         body: z.object({
-          title: z.string(),
+          title: z
+            .string()
+            .min(3, "Título muito curto")
+            .max(100, "Título muito longo"),
+          description: z.string().optional(),
         }),
         response: {
           201: z
