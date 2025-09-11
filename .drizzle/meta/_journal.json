@@ -36,6 +36,20 @@
       "when": 1756409716432,
       "tag": "0004_bitter_songbird",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1757444365896,
+      "tag": "0005_yielding_puma",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1757444605481,
+      "tag": "0006_premium_tomas",
+      "breakpoints": true
     }
   ]
 }
